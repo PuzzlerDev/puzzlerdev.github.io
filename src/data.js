@@ -31,7 +31,7 @@ const data = {
     {
       title: 'Work Connect (Discord Community)',
       link: 'https://work-connect.github.io/',
-      openInNewTab: true,
+      openInNewTab: false,
     },
   ],
 };
