@@ -1,26 +1,36 @@
 const data = {
   header: {
     image: {
-      url: 'https://raw.githubusercontent.com/adonyssantos/adonyssantos.github.io/main/assets/images/me.png',
-      alt: 'Adonys Santos photo',
+      url: 'https://avatars.githubusercontent.com/u/79990543',
+      alt: 'PuzzlerDev logo',
     },
-    fullname: 'Adonys Santos',
-    title: 'Junior Frontend Developer',
+    fullname: 'Puzzler Dev',
+    title: 'Dev community open source',
   },
   links: [
     {
-      title: 'Portfolio',
-      link: 'https://adonyssantos.me/portfolio',
-      openInNewTab: true,
-    },
-    {
       title: 'GitHub',
-      link: 'https://github.com/adonyssantos',
+      link: 'https://github.com/puzzlerdev',
       openInNewTab: true,
     },
     {
-      title: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/adonyssantos',
+      title: 'TikTok',
+      link: 'https://tiktok.com/@puzzlerdev',
+      openInNewTab: true,
+    },
+    {
+      title: 'Instagram',
+      link: 'https://www.instagram.com/puzzlerdev',
+      openInNewTab: true,
+    },
+    {
+      title: 'Twitter',
+      link: 'https://twitter.com/puzzlerdev',
+      openInNewTab: true,
+    },
+    {
+      title: 'Work Connect (Discord Community)',
+      link: 'https://work-connect.github.io/',
       openInNewTab: true,
     },
   ],
