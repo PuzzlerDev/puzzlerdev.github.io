@@ -1,8 +1,6 @@
-import data from './data.js';
-import { print, createHeader, createList, footer } from './utils/index.js';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './containers/App';
+import './styles/index.scss';
 
-if (data) {
-  print('header', createHeader(data.header));
-  print('links', createList(data.links));
-  print('footer', footer);
-}
+ReactDOM.render(<App />, document.getElementById('app'));

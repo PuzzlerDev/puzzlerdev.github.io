@@ -1,0 +1,42 @@
+{
+  "homepage": "https://github.com/PuzzlerDev/puzzlerdev.github.io#readme",
+  "name": "puzzlerdev-page",
+  "description": "Add the links in the object inside the file `/src/data.js`.",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --open --mode development",
+    "build": "webpack --mode production",
+    "predeploy": "",
+    "deploy": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuzzlerDev/puzzlerdev.github.io.git"
+  },
+  "author": "PuzzlerDev <puzzlerdevoficial@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PuzzlerDev/puzzlerdev.github.io/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "github-pages": "^3.0.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.1",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
