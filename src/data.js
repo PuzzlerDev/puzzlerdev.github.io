@@ -15,7 +15,7 @@ const data = {
     },
     {
       title: 'Discord',
-      link: 'https://discord.gg/N88xjqcRNz',
+      link: 'https://discord.gg/fyGx7BZ',
       openInNewTab: true,
     },
     {
